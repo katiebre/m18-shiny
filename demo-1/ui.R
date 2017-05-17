@@ -5,15 +5,15 @@ library(shiny)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("Hello Shiny!"),
+  titlePanel("Test Histogram!"),
   
   # Sidebar with a slider input for the number of bins
   sidebarLayout(
     sidebarPanel(
       sliderInput("bins",
-                  "Number of bins:",
+                  "Number of Things:",
                   min = 1,
-                  max = 50,
+                  max = 100,
                   value = 30)
     ),
     
